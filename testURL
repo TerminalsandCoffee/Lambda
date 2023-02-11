@@ -1,5 +1,5 @@
 const https = require('https');
-let url = "https://www.amazon.com";
+let url = "https://rafaelmartinez.cloud";
 
 exports.handler = function(event, context, callback) {
     https.get(url, (res) => {
